@@ -20,11 +20,13 @@ t_node *create_node(int value) {
  * Prints the binary tree nodes using pre-order traversal (root → left → right).
  *Visualization Example:
 
-        10
-     /      \
-    20      30
-   /  \    /  \
-  40   50 60  70
+         10
+	   /    \
+      /      \
+     20       30
+    /  \     /  \
+   /    \   /    \
+  40    50 60    70
 
  *Output: 10, 20, 40, 50, 30, 60, 70
  */
@@ -69,11 +71,13 @@ void print_tree_level(t_node *root, int level) {
  * Prints the binary tree nodes using pre-order traversal (level 1 → level 2 → level 3).
  *Visualization Example:
 
-        10
-     /      \
-    20      30
-   /  \    /  \
-  40   50 60  70
+         10
+	   /    \
+      /      \
+     20       30
+    /  \     /  \
+   /    \   /    \
+  40    50 60    70
 
  *Output: 10, 20, 30, 40, 50, 60, 70
  */
